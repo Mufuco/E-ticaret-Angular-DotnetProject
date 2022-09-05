@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxSpinnerService } from 'ngx-spinner';
 import { AlertiyfService, MessageType, Position } from 'src/app/services/admin/alertiyf.service';
 
 @Component({
@@ -8,9 +9,10 @@ import { AlertiyfService, MessageType, Position } from 'src/app/services/admin/a
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(private alertify:AlertiyfService) { }
+  constructor() { }
 
   ngOnInit(): void {
+    
     
   }
   
