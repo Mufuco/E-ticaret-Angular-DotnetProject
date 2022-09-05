@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{75660983-D06F-4CD2-886B-7BB0204567E8}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ETicaretAPI" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="ETicaretAPI.Application" expanded="True">
+                <Node name="Repositories" expanded="True">
+                  <Node name="Customer" expanded="True" />
+                  <Node name="Order" expanded="True" />
+                  <Node name="Product" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ETicaretAPI.Domain" expanded="True">
+                <Node name="Entites" expanded="True">
+                  <Node name="Common" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ETicaretAPI.Infrastructure" expanded="True" />
+              <Node name="ETicaretAPI.Persistence" expanded="True">
+                <Node name="Contexts" expanded="True">
+                  <Node name="ETicaretAPIDbContext.cs" selected="True" />
+                </Node>
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="ETicaretAPI.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
