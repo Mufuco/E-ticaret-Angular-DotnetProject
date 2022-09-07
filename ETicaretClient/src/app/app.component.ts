@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from './services/ui/custom-toastr.service';
 declare var $:any
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,6 +13,9 @@ export class AppComponent {
   constructor(){
     
   }
+  }
+  $.get("https://localhost:7226/api/Product"), data => {
+    console.log(data)
   }
     
   
