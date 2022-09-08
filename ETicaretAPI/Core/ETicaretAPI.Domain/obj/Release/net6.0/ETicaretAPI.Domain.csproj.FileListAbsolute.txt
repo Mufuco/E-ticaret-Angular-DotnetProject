@@ -1,0 +1,12 @@
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/bin/Release/net6.0/ETicaretAPI.Domain.deps.json
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/bin/Release/net6.0/ETicaretAPI.Domain.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/bin/Release/net6.0/ETicaretAPI.Domain.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.csproj.AssemblyReference.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.AssemblyInfoInputs.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.AssemblyInfo.cs
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/refint/ETicaretAPI.Domain.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ETicaretAPI.Domain.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Core/ETicaretAPI.Domain/obj/Release/net6.0/ref/ETicaretAPI.Domain.dll

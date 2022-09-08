@@ -1,46 +1,34 @@
 ﻿<Properties StartupConfiguration="{75660983-D06F-4CD2-886B-7BB0204567E8}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="31" Column="1" />
-      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="31" Column="34" />
-      <File FileName="Core/ETicaretAPI.Domain/Entites/Order.cs" Line="9" Column="23" />
+      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="30" Column="11" />
+      <File FileName="Core/ETicaretAPI.Domain/Entites/Order.cs" Line="19" Column="1" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="33" Column="1" />
+      <File FileName="Core/ETicaretAPI.Application/ViewModels/Products/VM_Update_Product.cs" Line="11" Column="2" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Contexts/ETicaretAPIDbContext.cs" Line="28" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ETicaretAPI" expanded="True">
-            <Node name="Core" expanded="True">
-              <Node name="ETicaretAPI.Application" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="Customer" expanded="True" />
-                  <Node name="Order" expanded="True" />
-                  <Node name="Product" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="ETicaretAPI.Domain" expanded="True">
-                <Node name="Entites" expanded="True">
-                  <Node name="Common" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="ETicaretAPI.Infrastructure" expanded="True" />
               <Node name="ETicaretAPI.Persistence" expanded="True">
                 <Node name="Contexts" expanded="True" />
-                <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="Presentation" expanded="True">
               <Node name="ETicaretAPI.API" expanded="True">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
