@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{75660983-D06F-4CD2-886B-7BB0204567E8}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="30" Column="11" />
-      <File FileName="Core/ETicaretAPI.Domain/Entites/Order.cs" Line="19" Column="1" />
-      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="33" Column="1" />
-      <File FileName="Core/ETicaretAPI.Application/ViewModels/Products/VM_Update_Product.cs" Line="11" Column="2" />
-      <File FileName="Infrastructure/ETicaretAPI.Persistence/Contexts/ETicaretAPIDbContext.cs" Line="28" Column="40" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -39,4 +33,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>
