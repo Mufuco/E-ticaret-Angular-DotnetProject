@@ -251,3 +251,8 @@
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/obj/Release/net6.0/ETicaretAPI.API.pdb
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/obj/Release/net6.0/ETicaretAPI.API.genruntimeconfig.cache
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/obj/Release/net6.0/ref/ETicaretAPI.API.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Release/net6.0/FluentValidation.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Release/net6.0/FluentValidation.AspNetCore.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Release/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Release/net6.0/ETicaretAPI.Infrastructure.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Release/net6.0/ETicaretAPI.Infrastructure.pdb

@@ -1,0 +1,17 @@
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Infrastructure.deps.json
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Application.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Application.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.AssemblyReference.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.AssemblyInfoInputs.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.AssemblyInfo.cs
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.CopyComplete
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/refint/ETicaretAPI.Infrastructure.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ref/ETicaretAPI.Infrastructure.dll

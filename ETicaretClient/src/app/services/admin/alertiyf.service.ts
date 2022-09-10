@@ -7,38 +7,40 @@ declare var alertify:any;
 export class AlertiyfService {
 
   constructor() { }
-  //message(message: string, messageType: MessageType,position:Position, delay:number=3,dismissOthers:boolean=false){
-    message(message: string,options:Partial<AlertifyOptions>){
-    const msj=alertify[options.messageType](message)
-    alertify.set('notifier', 'delay', options.delay)
-    alertify.set('notifier', 'position',options.position)
-    if(options.dismissOthers)
-    msj.dismissOthers();
-  }
-  dismiss(){
-    alertify.dismiss();
+  message(message: string, options: Partial<AlertifyOptions>) {
+    alertify.set('notifier', 'delay', options.delay);
+    alertify.set('notifier', 'position', options.position);
+    const msj = alertify[options.messageType](message);
+    if (options.dismissOthers)
+      msj.dismissOthers();
+
   }
 
+  dismiss() {
+    alertify.dismissAll();
+  }
 }
+
 export class AlertifyOptions {
-  messageType: MessageType=MessageType.Message;
-  position: Position=Position.Bottomright;
-  delay: number=3;
-  dismissOthers:boolean=false;
+  messageType: MessageType = MessageType.message;
+  position: Position = Position.BottomLeft;
+  delay: number = 3;
+  dismissOthers: boolean = false;
+}
 
+export enum MessageType {
+  error = "error",
+  message = "message",
+  notify = "notify",
+  success = "success",
+  warning = "warning"
 }
-export enum MessageType{
-  Error= "error",
-  Message= "message",
-  Notify= "notify",
-  Succes= "succes",
-  Warning= "warning",
-}
-export enum Position{
-  TopCenter="top-center",
-  TopRight= "top-right",
-  TopLeft= "top-left",
-  Bottomright= "bottom-right",
-  Bottomleft= "bottom-left",
-  Bottomcenter= "bottom-center"
+
+export enum Position {
+  TopCenter = "top-center",
+  TopRight = "top-right",
+  TopLeft = "top-left",
+  BottomRight = "bottom-right",
+  BottomCenter = "bottom-center",
+  BottomLeft = "bottom-left"
 }

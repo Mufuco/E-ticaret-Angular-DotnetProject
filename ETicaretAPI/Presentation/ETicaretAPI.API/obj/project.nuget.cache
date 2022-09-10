@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iaHGSKez8I4Z9GlfGzWNRoJses5vlOXxLiyh7ZOgRJmWOMnJE71/9eNOy6vqx55qbODtl4S6wtOBfLVRxTXf6A==",
+  "dgSpecHash": "1/eP7bHlOkg2etK5MrZGNAvD9HsF4NkX/DLEy+esAKSPh6LgpO6YSplGmGaZ1rKHrLHXPBzeAf7VDLl0FzkzuQ==",
   "success": true,
   "projectFilePath": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
+    "/Users/mufu/.nuget/packages/fluentvalidation/11.2.1/fluentvalidation.11.2.1.nupkg.sha512",
+    "/Users/mufu/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "/Users/mufu/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.2.1/fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "/Users/mufu/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mufu/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/mufu/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",

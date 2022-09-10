@@ -251,3 +251,8 @@
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/Npgsql.dll
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb

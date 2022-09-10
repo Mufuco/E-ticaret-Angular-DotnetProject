@@ -10,7 +10,7 @@ import { AlertiyfService, MessageType, Position } from 'src/app/services/admin/a
 })
 export class DashboardComponent extends BaseComponent implements OnInit {
 
-  constructor(spinner: NgxSpinnerService) { 
+  constructor(spinner: NgxSpinnerService, private alertiyf:AlertiyfService) { 
     super(spinner);
   }
 
@@ -19,7 +19,9 @@ export class DashboardComponent extends BaseComponent implements OnInit {
     
   }
   
+  
   }
+
   
 
 

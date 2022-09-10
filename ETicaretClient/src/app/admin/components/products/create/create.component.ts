@@ -17,22 +17,30 @@ export class CreateComponent extends BaseComponent implements OnInit {
 
   ngOnInit(): void {}
 
-   create(name:HTMLInputElement, stock:HTMLInputElement, price:HTMLInputElement){
+   create(name: HTMLInputElement, stock: HTMLInputElement, price: HTMLInputElement) {
     this.showSpinner(SpinnerType.BallAtom);
-      const create_product:Create_Product=new Create_Product();
-      create_product.name=name.value;
-      create_product.stock=parseInt(stock.value);
-      create_product.price=parseFloat(price.value);
-      this.productService.create(create_product,()=>{
+    const create_product: Create_Product = new Create_Product();
+    create_product.name = name.value;
+    create_product.stock = parseInt(stock.value);
+    create_product.price = parseFloat(price.value);
 
-     this.hideSpinner(SpinnerType.BallAtom);
-     this.alertify.message("Başarili",{dismissOthers:true,messageType:MessageType.Succes,position:Position.TopCenter});  
+    if(name.value)
 
+    this.productService.create(create_product, () => {
+      this.hideSpinner(SpinnerType.BallAtom);
+      this.alertify.message("Ürün başariyla eklenmiştir.", {
+        dismissOthers: true,
+        messageType: MessageType.success,
+        position: Position.TopRight
       });
-
-
-
-    }
-  
-
+    }, errorMessage => {
+      this.alertify.message(errorMessage,
+        {
+          dismissOthers: true,
+          messageType: MessageType.error,
+          position: Position.TopRight
+        });
+    });
+  }
 }
+

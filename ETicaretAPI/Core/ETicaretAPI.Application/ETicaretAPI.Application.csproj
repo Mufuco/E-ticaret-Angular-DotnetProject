@@ -18,6 +18,11 @@
     <None Remove="Repositories\Product\" />
     <None Remove="ViewModels\" />
     <None Remove="ViewModels\Products\" />
+    <None Remove="Validatörs\" />
+    <None Remove="Validatörs\Product\" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="FluentValidation.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstarctions\" />
@@ -27,8 +32,13 @@
     <Folder Include="Repositories\Product\" />
     <Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Products\" />
+    <Folder Include="Validatrs\" />
+    <Folder Include="Validatörs\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
   </ItemGroup>
 </Project>
