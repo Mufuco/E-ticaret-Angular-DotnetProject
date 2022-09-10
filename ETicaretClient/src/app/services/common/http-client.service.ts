@@ -22,7 +22,7 @@ export class HttpClientService {
     if (requestParameter.fullEndPoint)
       url = requestParameter.fullEndPoint;
     else
-      url = `${this.url(requestParameter)}${id ? `/${id}` : ""}` 
+      url = `${this.url(requestParameter)}${id ? `/${id}` : ""}${requestParameter.queryString ? `?${requestParameter.queryString}` :""}`;
 
     return this.HttpClient.get<T>(url, { headers: requestParameter.headers });
   }
@@ -32,7 +32,7 @@ export class HttpClientService {
     if (requestParameter.fullEndPoint)
       url = requestParameter.fullEndPoint;
     else
-      url = `${this.url(requestParameter)}`
+      url = `${this.url(requestParameter)}${requestParameter.queryString ? `?${requestParameter.queryString}` :""}`;
 
     return this.HttpClient.post<T>(url, body, { headers: requestParameter.headers });
 
@@ -43,7 +43,7 @@ export class HttpClientService {
     if (requestParameter.fullEndPoint)
       url = requestParameter.fullEndPoint;
     else
-      url = `${this.url(requestParameter)}`;
+      url = `${this.url(requestParameter)}${requestParameter.queryString ? `?${requestParameter.queryString}` :""}`;
 
       return this.HttpClient.put<T>(url,body,{headers:requestParameter.headers})
 
@@ -55,7 +55,7 @@ export class HttpClientService {
     if (requestParameter.fullEndPoint)
       url = requestParameter.fullEndPoint;
     else
-      url = `${this.url(requestParameter)}/${id}`;
+      url = `${this.url(requestParameter)}/${id}${requestParameter.queryString ? `?${requestParameter.queryString}` :""}`;
 
       return this.HttpClient.delete<T>(url,{headers:requestParameter.headers});
 
@@ -65,6 +65,7 @@ export class HttpClientService {
 export class RequestParameters{
   controller ?: string;
   action ?: string;
+  queryString ?: string;
 
   headers ?: HttpHeaders;
   baseUrl ?: string;
