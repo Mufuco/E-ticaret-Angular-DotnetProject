@@ -13,6 +13,10 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import { DeleteDirective } from 'src/app/directives/admin/delete.directive';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DeletedialogComponent } from 'src/app/dialogs/deletedialog/deletedialog.component';
+import { FileUploadModule } from 'src/app/services/common/file-upload/file-upload.module';
+import { DialogModule } from '@angular/cdk/dialog';
+import { FileUploadComponent } from 'src/app/services/common/file-upload/file-upload.component';
+import { DialogsModule } from 'src/app/dialogs/dialogs/dialogs.module';
 
 
 
@@ -22,14 +26,14 @@ import { DeletedialogComponent } from 'src/app/dialogs/deletedialog/deletedialog
     CreateComponent,
     ListComponent,
     DeleteDirective,
-    DeletedialogComponent,
     
     
   ],
   imports: [
     CommonModule,
     RouterModule.forChild([ {path:"",component:ProductsComponent}]),
-    MatSidenavModule,MatFormFieldModule,MatInputModule,MatButtonModule,MatTableModule,MatPaginatorModule,MatDialogModule
+    MatSidenavModule,MatFormFieldModule,MatInputModule,MatButtonModule,MatTableModule,MatPaginatorModule,MatDialogModule,
+    FileUploadModule,DialogsModule
     
   ]
 })

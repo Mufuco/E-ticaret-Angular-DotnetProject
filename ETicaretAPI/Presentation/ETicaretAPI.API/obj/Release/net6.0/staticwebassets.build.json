@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "K8M4uZo9UoL6PiBpMUZfd6FD4YDLN0dDDlTYfg9nLw8=",
+  "Hash": "6mLm++PYcqyK8pt5SmXAcLafLiSNjfyJxqFEPIl+2BU=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ETicaretAPI.API/wwwroot",
+      "Source": "ETicaretAPI.API",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/delete-51d60e15-1e4b-4b40-bc90-3e5380a1c4b5.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/delete-51d60e15-1e4b-4b40-bc90-3e5380a1c4b5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/delete-51d60e15-1e4b-4b40-bc90-3e5380a1c4b5.png"
+    },
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/edit-044448cd-7efb-42d7-93b6-9104c300eb87.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/edit-044448cd-7efb-42d7-93b6-9104c300eb87.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/edit-044448cd-7efb-42d7-93b6-9104c300eb87.png"
+    },
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/edit-f469ad43-9023-4f15-a2d2-4421ab16c303.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/edit-f469ad43-9023-4f15-a2d2-4421ab16c303.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/edit-f469ad43-9023-4f15-a2d2-4421ab16c303.png"
+    }
+  ]
 }

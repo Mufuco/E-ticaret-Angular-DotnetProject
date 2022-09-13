@@ -12,10 +12,17 @@ import { BaseComponent } from './base/base.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DeleteDirective } from './directives/admin/delete.directive';
 import { DeletedialogComponent } from './dialogs/deletedialog/deletedialog.component';
+import { FileUploadComponent } from './services/common/file-upload/file-upload.component';
+import { FileUploadModule } from './services/common/file-upload/file-upload.module';
+import { FileUploadDialogsComponent } from './dialogs/file-upload-dialogs/file-upload-dialogs.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    
+   
+    
     
     
   ],
@@ -27,7 +34,8 @@ import { DeletedialogComponent } from './dialogs/deletedialog/deletedialog.compo
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
     NgxSpinnerModule,
-    HttpClientModule
+    HttpClientModule,
+    
     
   ],
   providers: [{provide:"baseUrl",useValue:"https://localhost:7226/api",multi:true}],

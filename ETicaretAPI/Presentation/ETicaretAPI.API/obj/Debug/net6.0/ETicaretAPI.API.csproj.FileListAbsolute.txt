@@ -256,3 +256,4 @@
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
 /Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.API.staticwebassets.runtime.json

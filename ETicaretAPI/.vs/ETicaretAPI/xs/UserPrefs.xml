@@ -1,17 +1,12 @@
 ﻿<Properties StartupConfiguration="{75660983-D06F-4CD2-886B-7BB0204567E8}|Default">
-  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs" relfile="Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs" line="13" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Controllers/ProductController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs">
     <Files>
-      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="46" Column="14" />
-      <File FileName="Core/ETicaretAPI.Application/RequestParameters/Pagination.cs" Line="7" Column="42" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="127" Column="1" />
+      <File FileName="Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,6 +29,11 @@
             <Node name="Presentation" expanded="True">
               <Node name="ETicaretAPI.API" expanded="True">
                 <Node name="Controllers" expanded="True" />
+                <Node name="wwwroot" expanded="True">
+                  <Node name="resource" expanded="True">
+                    <Node name="product-images" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -44,4 +44,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs" relfile="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" line="100" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

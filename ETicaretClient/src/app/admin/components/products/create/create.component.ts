@@ -3,6 +3,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { Create_Product } from 'src/app/contracts/create_product';
 import { AlertiyfService, MessageType, Position } from 'src/app/services/admin/alertiyf.service';
+import { FileUploadOptions } from 'src/app/services/common/file-upload/file-upload.component';
 import { ProductService } from 'src/app/services/common/models/product.service';
 
 @Component({
@@ -18,7 +19,14 @@ export class CreateComponent extends BaseComponent implements OnInit {
   ngOnInit(): void {}
   @Output() createdProduct : EventEmitter<Create_Product> = new EventEmitter();
 
-  
+   @Output() fileUploadOptions:Partial<FileUploadOptions>={
+    action:"Upload",
+    controller:"Product",
+    explanation:"Resimleri sürükleyin veya seçin",
+    isAdminPage:true,
+    accept:".png, .jpg, .jpeg,Json"
+
+   };
 
    create(name: HTMLInputElement, stock: HTMLInputElement, price: HTMLInputElement) {
     this.showSpinner(SpinnerType.BallAtom);
