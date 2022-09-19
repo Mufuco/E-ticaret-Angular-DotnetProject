@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{75660983-D06F-4CD2-886B-7BB0204567E8}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs" relfile="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" line="103" column="1" />
-      <Breakpoint file="/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/FileService.cs" relfile="Infrastructure/ETicaretAPI.Infrastructure/Services/FileService.cs" line="19" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Infrastructure/ETicaretAPI.Infrastructure/Services/FileService.cs" Line="112" Column="1" />
-      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="109" Column="1" />
-      <File FileName="Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs" Line="24" Column="1" />
+      <File FileName="Core/ETicaretAPI.Domain/Entites/File.cs" Line="19" Column="1" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductController.cs" Line="120" Column="26" />
+      <File FileName="Infrastructure/ETicaretAPI.Infrastructure/ServiceRegistration.cs" Line="3" Column="40" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/ProductImageFile/IProductImageFileWriteRepository.cs" Line="8" Column="9" />
+      <File FileName="Core/ETicaretAPI.Application/Abstarctions/Storage/IStorageService.cs" Line="8" Column="2" />
+      <File FileName="Core/ETicaretAPI.Application/Abstarctions/Storage/IStorage.cs" Line="6" Column="22" />
+      <File FileName="Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/StorageService.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,26 +15,19 @@
           <Node name="ETicaretAPI" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="ETicaretAPI.Application" expanded="True">
-                <Node name="RequestParameters" expanded="True" />
-                <Node name="Services" expanded="True" />
-                <Node name="Validatörs" expanded="True">
-                  <Node name="Product" expanded="True" />
+                <Node name="Abstarctions" expanded="True">
+                  <Node name="Storage" expanded="True" />
                 </Node>
-                <Node name="ViewModels" expanded="True">
-                  <Node name="Products" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="ProductImageFile" expanded="True" />
                 </Node>
               </Node>
+              <Node name="ETicaretAPI.Domain" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="ETicaretAPI.Infrastructure" expanded="True">
-                <Node name="Filters" expanded="True" />
-                <Node name="Operations" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
-              <Node name="ETicaretAPI.Persistence" expanded="True">
-                <Node name="Contexts" expanded="True" />
-                <Node name="Repositories" expanded="True">
-                  <Node name="Product" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="Storage" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -45,7 +36,9 @@
                 <Node name="Controllers" expanded="True" />
                 <Node name="wwwroot" expanded="True">
                   <Node name="resource" expanded="True">
-                    <Node name="product-images" expanded="True" />
+                    <Node name="files" expanded="True">
+                      <Node name="Delete.png" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
               </Node>
@@ -58,8 +51,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
