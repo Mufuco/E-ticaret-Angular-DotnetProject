@@ -7,7 +7,7 @@ namespace ETicaretAPI.Domain.Entites.Common
 
         public DateTime CreatedDate { get; set; }
 
-        public DateTime UpdatedDate { get; set; }
+        virtual public DateTime UpdatedDate { get; set; }
 
 
     }

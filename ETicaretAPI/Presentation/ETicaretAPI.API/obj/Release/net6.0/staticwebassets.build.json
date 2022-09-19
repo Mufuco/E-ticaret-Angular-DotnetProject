@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iOTjv30dJxDLt97YTAcZcVlJ2l9lKEkYCH7qORl6Yns=",
+  "Hash": "a2JDwdaUL5WR4ueFmS2ZiLuwgQ4jDvF4SjqPvlm2QoM=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/resource/product-images/Delete-359-897ea536-2af6-4d86-96c0-5a1904fccb92.png"
+    },
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/Delete-634-804b2bca-a1c7-4ee7-9a7b-7ecc1efec951.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/Delete-634-804b2bca-a1c7-4ee7-9a7b-7ecc1efec951.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/Delete-634-804b2bca-a1c7-4ee7-9a7b-7ecc1efec951.png"
     },
     {
       "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/Delete-693-20e9fcd3-3dae-45ee-b0c2-7df51aceef88.png",
@@ -66,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/resource/product-images/Edit-329-b25da090-843d-4d8d-9154-587e3f7bbc65.png"
+    },
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/Edit-386-7368b6b2-2369-4385-a6b2-6a9994259ac9.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/Edit-386-7368b6b2-2369-4385-a6b2-6a9994259ac9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/Edit-386-7368b6b2-2369-4385-a6b2-6a9994259ac9.png"
+    },
+    {
+      "Identity": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/resource/product-images/Edit-415-882e86bd-ae66-4584-b751-972f67da0e61.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mufu/Desktop/E-ticaret/ETicaretAPI/Presentation/ETicaretAPI.API/wwwroot/",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "resource/product-images/Edit-415-882e86bd-ae66-4584-b751-972f67da0e61.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/resource/product-images/Edit-415-882e86bd-ae66-4584-b751-972f67da0e61.png"
     }
   ]
 }

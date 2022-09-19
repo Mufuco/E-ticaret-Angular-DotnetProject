@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ETicaretAPI.Application.Repositories;
 using ETicaretAPI.Persistence.Repositories;
 
+
 namespace ETicaretAPI.Persistence
 {
 	public static class ServiceRegistarion
@@ -20,7 +21,16 @@ namespace ETicaretAPI.Persistence
 			services.AddScoped< IOrderWriteRepository, OrderWriteRepository >();
 			services.AddScoped<IProductWriteRepository, ProductWriteRepository> ();
 			services.AddScoped<IProductReadRepository, ProductReadRepository>();
-		}
+            services.AddScoped<IFileReadRepository, FileReadRepository>();
+            services.AddScoped<IFileWriteRepository, FileWriteRepoistory>();
+            services.AddScoped<IProductImageFileReadRepository, ProductImageFileReadRepository>();
+            services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
+            services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
+            services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+
+
+            services.AddScoped<IProductReadRepository, ProductReadRepository>();
+        }
 	}
 }
 
